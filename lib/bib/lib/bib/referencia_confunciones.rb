@@ -16,7 +16,7 @@ class Apa
 
     while(aux != nil)
        mostrar_autor(aux.value.autor)
-       if(aux.value.is_a? Revista) then
+       if(aux.value.is_a? Libro) then
           sangria(mostrar_titulo(aux.value.titulo))
        else
           sangria(aux.value.titulo)
@@ -137,6 +137,10 @@ class Documento_electronico < Referencia
   end
 end
  
+def gen_times(factor)
+    return Proc.new {|n| n*factor }
+end
+
 def proc_from
     Proc.new
 end
@@ -145,16 +149,14 @@ end
 
 libro1 = Libro.new(["Dave Thomas"], "programming ruby 1.9 & 2.0: the pragmatic programmers guide. (the facets of ruby)", "Pragmatic Bookshelf", "", 4, "(July 7, 2015)", ["ISBN-13: 968-1937785499", "ISBN-10: 1937785491"])
 libro2 = Libro.new(["Dave Thomas","Jose Fons"], "programming ruby 1.9 & 2.0: the pragmatic programmers guide. (the facets of ruby)", "Pragmatic Bookshelf", "", 4, "(July 7, 2015)", ["ISBN-13: 968-1937785499", "ISBN-10: 1937785491"])
-revista1 = Revista.new(["Juan Jimenez","Alvaro Font","Almudena Fernandez"],"national geography", "14 de Diciembre", ["ISSN:JDCYCFHNF75","ISSN:KKSDKDKK"])
 
 nodo1 = Node.new(libro1)
 nodo2 = Node.new(libro2)
-nodo3 = Node.new(revista1)
 
 apa1 = Apa.new()
 apa1.lista1.insertar_nodo(nodo1)
 apa1.lista1.insertar_nodo(nodo2)
-apa1.lista1.insertar_nodo(revista1)
 
 apa1.to_s
+
 
