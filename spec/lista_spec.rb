@@ -317,7 +317,6 @@ describe Lista do
         end
     end
     
-    describe "Practica 10 Citas" do
-
+    describe "Practica 10: Citas a Referencias" do 
     end
 end
