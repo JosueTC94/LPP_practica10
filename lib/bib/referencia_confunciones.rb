@@ -145,33 +145,7 @@ def proc_from
     Proc.new
 end
 
-times3 = gen_times(3)
-times5 = gen_times(5)
 
-#proc = proc_from {|word| word = word.split(" ")[1],word.split(" ")[0]}
-
-#proc = proc_from { |array| array.split(",").each{|i| i.capitalize!}.join(' ')}
-
-#ESTE SIRVE
- proc = proc_from { |array| array.each_with_index do |word, i|
-                         array[i] = array[i].split(" ")[1]+" "+array[i].split(" ")[0]
- #                      puts i  
-                     end
- }
-
-#ESTE SIRVE
-# proc = proc_from { |cadena| cadena = cadena.split(" ").each{|i| i.capitalize!}}
- 
-# #array.split(",").each{|i| i.capitalize!}.join(' ')}
-# ar = ["david thomas","pepe mujica"]
-
-# libro = Libro.new(["Dave Thomas", "Andy Hunt", "Chad Fowler"], "Programming Ruby 1.9 & 2.0: The Pragmatic Programmers Guide. (The Facets of Ruby)", "Pragmatic Bookshelf", "", 4, "(July 7, 2013)", ["ISBN-13: 968-1937785499", "ISBN-10: 1937785491"])
-# revista1 = Revista.new(["Juan Jimenez","Alvaro Font","Almudena Fernandez"],"national geography", "14 de Diciembre", ["ISSN:JDCYCFHNF75","ISSN:KKSDKDKK"])
-
-
-# puts proc.call(revista1.titulo)
-# puts "\n"
-# puts ar.size
 
 libro1 = Libro.new(["Dave Thomas"], "programming ruby 1.9 & 2.0: the pragmatic programmers guide. (the facets of ruby)", "Pragmatic Bookshelf", "", 4, "(July 7, 2015)", ["ISBN-13: 968-1937785499", "ISBN-10: 1937785491"])
 libro2 = Libro.new(["Dave Thomas","Jose Fons"], "programming ruby 1.9 & 2.0: the pragmatic programmers guide. (the facets of ruby)", "Pragmatic Bookshelf", "", 4, "(July 7, 2015)", ["ISBN-13: 968-1937785499", "ISBN-10: 1937785491"])

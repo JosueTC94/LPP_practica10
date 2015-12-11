@@ -1,6 +1,6 @@
 #PRACTICA 10 LENGUAJES Y PARADIGMAS DE PROGRAMACIÓN
 
-##Titulo: Citas 
+##Titulo: Programación funcional 
 
 ##Autor: Josué Toledo Castro alu0100763492
 
