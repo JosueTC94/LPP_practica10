@@ -318,11 +318,6 @@ describe Lista do
     end
     
     describe "Practica 10: Citas a Referencias" do 
-        before :each do
-            @apa1 = Apa.new()
-            @apa1.lista1.insertar_nodo(@libro1)
-            @apa1.lista1.insertar_nodo(@libro2)
-            @apa1.lista1.insertar_nodo(@libro3)
-        end 
+
     end
 end
