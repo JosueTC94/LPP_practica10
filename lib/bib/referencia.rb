@@ -1,3 +1,19 @@
+class Apa
+  # require "../bib/nodo"
+  # require "../bib/lista"
+  
+  attr_reader :lista1
+  
+ 
+  def initialize()
+      @lista1 = Lista.new()
+  end  
+
+  def to_s
+
+  end
+end
+
 class Referencia
   attr_reader :autor, :titulo,  :fecha_publicacion
   include Comparable
