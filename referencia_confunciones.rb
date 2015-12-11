@@ -156,7 +156,7 @@ apa1.lista1.insertar_nodo(nodo1)
 apa1.lista1.insertar_nodo(nodo2)
 apa1.lista1.insertar_nodo(revista1)
 
-
+#cucu
 apa1.to_s
 
 
