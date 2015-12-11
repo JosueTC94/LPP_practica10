@@ -1,13 +1,12 @@
-#PRACTICA 9 LENGUAJES Y PARADIGMAS DE PROGRAMACIÓN
+#PRACTICA 10 LENGUAJES Y PARADIGMAS DE PROGRAMACIÓN
 
-##Titulo: Programación Orientada a Objetos. Módulos 
+##Titulo: Citas 
 
 ##Autor: Josué Toledo Castro alu0100763492
 
-##Fecha: 27/11/15
+##Fecha: 11/12/15
 
-[![Coverage Status](https://coveralls.io/repos/JosueTC94/LPP_prct10/badge.svg?branch=master&service=github)](https://coveralls.io/github/JosueTC94/LPP_prct10?branch=master)
-
+[![Coverage Status](https://coveralls.io/repos/JosueTC94/LPP_practica10/badge.svg?branch=master&service=github)](https://coveralls.io/github/JosueTC94/LPP_practica10?branch=master)
 # Bib
 
 Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/bib`. To experiment with that code, run `bin/console` for an interactive prompt.
