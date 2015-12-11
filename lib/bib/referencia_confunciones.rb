@@ -31,9 +31,9 @@ def mostrar_autor(string)
     cadena = ""
     proc = proc_from { |array| array.each_with_index do |word, i|
              if(i+1 == array.size) then
-                cadena +=  array[i].split(" ")[1] << " " << array[i].split(" ")[0] << " "
+                cadena +=  array[i].split(" ")[1] << " " << array[i].split(//)[0] << "." << " "
              else
-                cadena +=  array[i].split(" ")[1] << " " << array[i].split(" ")[0] << " & " 
+                cadena +=  array[i].split(" ")[1] << " " << array[i].split(//)[0] << "." << " & " 
              end
              i += 1
           end
